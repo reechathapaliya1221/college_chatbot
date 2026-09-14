@@ -1,0 +1,44 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY - FACULTY DIRECTORY
+DEPARTMENT OF COMPUTER ENGINEERING
+
+Prof. Anita Sharma
+Designation: Associate Professor
+Specialization: Database Systems, Data Warehousing
+Courses Taught: Database Management Systems, Advanced SQL
+Office: Room 210, Faculty Block
+Email: anita.sharma@greenfieldtech.edu.np
+Office Hours: Monday & Wednesday, 3 PM - 4 PM
+
+Prof. Rajan Thapa
+Designation: Assistant Professor
+Specialization: Computer Networks, Network Security
+Courses Taught: Computer Networks, Cryptography and Network Security
+Office: Room 212, Faculty Block
+Email: rajan.thapa@greenfieldtech.edu.np
+Office Hours: Tuesday & Thursday, 2 PM - 3 PM
+
+Prof. Sunita Karki
+Designation: Professor and Head of Department
+Specialization: Software Engineering, Requirements Engineering
+Courses Taught: Software Engineering, Software Project Management
+Office: Room 201 (HOD Office), Faculty Block
+Email: sunita.karki@greenfieldtech.edu.np
+Office Hours: By appointment only (email in advance)
+
+Prof. Bikash Gurung
+Designation: Assistant Professor
+Specialization: Operating Systems, Distributed Systems
+Courses Taught: Operating Systems, Distributed Computing
+Office: Room 215, Faculty Block
+Email: bikash.gurung@greenfieldtech.edu.np
+Office Hours: Monday & Friday, 11 AM - 12 PM
+
+Prof. Priya Malla
+Designation: Assistant Professor
+Specialization: Machine Learning, Computer Vision
+Courses Taught: Machine Learning, Artificial Intelligence, Deep Learning Elective
+Office: Room 218, Faculty Block
+Email: priya.malla@greenfieldtech.edu.np
+Office Hours: Wednesday & Thursday, 1 PM - 2 PM
+
+For general department queries, contact the Department Office at Room 200, Faculty Block, or email cse.dept@greenfieldtech.edu.np.

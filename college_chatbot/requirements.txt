@@ -1,0 +1,9 @@
+python-dotenv
+chromadb
+sentence-transformers
+pypdf
+google-genai
+fastapi
+uvicorn[standard]
+streamlit
+pydantic

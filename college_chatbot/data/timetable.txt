@@ -1,0 +1,44 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY - CLASS TIMETABLE
+BACHELOR OF COMPUTER ENGINEERING, SEMESTER 5 (SECTION A)
+EFFECTIVE FROM: FALL SEMESTER 2026
+
+MONDAY
+09:00 - 10:00   Database Management Systems (Room 301) - Prof. Anita Sharma
+10:00 - 11:00   Computer Networks (Room 301) - Prof. Rajan Thapa
+11:00 - 11:15   Break
+11:15 - 12:15   Software Engineering (Room 301) - Prof. Sunita Karki
+12:15 - 01:15   Lunch Break
+01:15 - 03:15   Database Management Systems Lab (Lab 2) - Prof. Anita Sharma
+
+TUESDAY
+09:00 - 10:00   Operating Systems (Room 301) - Prof. Bikash Gurung
+10:00 - 11:00   Computer Networks (Room 301) - Prof. Rajan Thapa
+11:00 - 11:15   Break
+11:15 - 12:15   Elective I: Machine Learning (Room 302) - Prof. Priya Malla
+12:15 - 01:15   Lunch Break
+01:15 - 03:15   Computer Networks Lab (Lab 1) - Prof. Rajan Thapa
+
+WEDNESDAY
+09:00 - 10:00   Software Engineering (Room 301) - Prof. Sunita Karki
+10:00 - 11:00   Operating Systems (Room 301) - Prof. Bikash Gurung
+11:00 - 11:15   Break
+11:15 - 12:15   Database Management Systems (Room 301) - Prof. Anita Sharma
+12:15 - 01:15   Lunch Break
+01:15 - 03:15   Operating Systems Lab (Lab 3) - Prof. Bikash Gurung
+
+THURSDAY
+09:00 - 10:00   Elective I: Machine Learning (Room 302) - Prof. Priya Malla
+10:00 - 11:00   Software Engineering (Room 301) - Prof. Sunita Karki
+11:00 - 11:15   Break
+11:15 - 12:15   Computer Networks (Room 301) - Prof. Rajan Thapa
+12:15 - 01:15   Lunch Break
+01:15 - 03:15   Project Work / Mentoring Session (Room 305)
+
+FRIDAY
+09:00 - 10:00   Operating Systems (Room 301) - Prof. Bikash Gurung
+10:00 - 11:00   Database Management Systems (Room 301) - Prof. Anita Sharma
+11:00 - 11:15   Break
+11:15 - 12:15   Elective I: Machine Learning (Room 302) - Prof. Priya Malla
+12:15 onwards   Club Activities / Sports
+
+NOTE: Saturday is a holiday for Semester 5. Lab sessions are compulsory and attendance is recorded separately from lecture attendance. Any changes to this timetable will be announced via the student portal and notice board at least 3 days in advance.
