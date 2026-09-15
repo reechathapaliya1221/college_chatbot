@@ -81,8 +81,3 @@ college_chatbot/
 - Add authentication so it only works for verified students
 - Evaluate answer quality with a small test set of Q&A pairs
 
-## Notes
-- Embeddings run **locally and free** (sentence-transformers) — only the
-  final answer generation calls the Claude API, so costs stay low.
-- Swap `CLAUDE_MODEL` in `config.py` for a smaller/cheaper model if you're
-  running many test queries during development.
