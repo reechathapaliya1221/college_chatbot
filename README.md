@@ -32,7 +32,7 @@ cp .env.example .env      # Windows: copy .env.example .env
 #    Put PDFs or .txt files into the data/ folder
 mkdir -p data
 cp /path/to/handbook.pdf data/
-cp /path/to/fee_structure.pdf data/
+
 
 # 5. Build the knowledge base (run this once, and again whenever docs change)
 python ingest.py
