@@ -38,27 +38,6 @@ cp /path/to/fee_structure.pdf data/
 python ingest.py
 ```
 
-## Running it
-
-**Option A — Streamlit UI (easiest, all-in-one):**
-```bash
-streamlit run streamlit_app.py
-```
-
-**Option B — Quick terminal test:**
-```bash
-python rag.py
-```
-
-**Option C — FastAPI backend (for a separate frontend, e.g. React):**
-```bash
-uvicorn app:app --reload
-```
-Then POST to `http://127.0.0.1:8000/chat` with JSON body:
-```json
-{"question": "What is the last date to pay semester fees?"}
-```
-
 ## Project structure
 ```
 college_chatbot/
