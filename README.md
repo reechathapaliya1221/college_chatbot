@@ -38,19 +38,6 @@ cp /path/to/fee_structure.pdf data/
 python ingest.py
 ```
 
-## Project structure
-```
-college_chatbot/
-├── config.py           # settings (models, chunk size, paths)
-├── ingest.py            # builds the vector knowledge base
-├── rag.py               # retrieval + generation logic
-├── app.py               # FastAPI backend
-├── streamlit_app.py      # chat UI
-├── requirements.txt
-├── data/                 # <- put your college documents here
-└── chroma_db/            # auto-generated vector database (after ingest.py)
-```
-
 ## Ideas to extend this for your project report
 - Add multi-turn conversation memory (pass `history` into `generate_answer`)
 - Show citation snippets, not just filenames
