@@ -59,10 +59,18 @@ Student's question: {question}
 Answer the question using only the context above."""
 
 
+def make_excerpt(text: str, max_chars: int = 160) -> str:
+    """Shorten a chunk of text into a clean, readable excerpt."""
+    text = " ".join(text.split())  # collapse whitespace/newlines
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0] + "..."
+
+
 def generate_answer(question: str, history: list[dict] | None = None) -> dict:
     """
     Full RAG pipeline: retrieve relevant chunks, then ask Gemini to answer
-    using only that context. Returns the answer plus the sources used.
+    using only that context. Returns the answer plus the source excerpts used.
     """
     chunks = retrieve_chunks(question)
 
@@ -86,7 +94,17 @@ def generate_answer(question: str, history: list[dict] | None = None) -> dict:
 
     answer_text = response.text
 
-    sources = sorted(set(c["source"] for c in chunks))
+    # One excerpt per unique source file (first chunk seen for that file)
+    seen_sources = set()
+    sources = []
+    for c in chunks:
+        if c["source"] not in seen_sources:
+            seen_sources.add(c["source"])
+            sources.append({
+                "source": c["source"],
+                "excerpt": make_excerpt(c["text"]),
+            })
+
     return {"answer": answer_text, "sources": sources}
 
 
@@ -100,4 +118,7 @@ if __name__ == "__main__":
         result = generate_answer(q)
         print(f"\nBot: {result['answer']}")
         if result["sources"]:
-            print(f"(Sources: {', '.join(result['sources'])})\n")
+            print("\nSources:")
+            for s in result["sources"]:
+                print(f"  📄 {s['source']}: \"{s['excerpt']}\"")
+        print()
